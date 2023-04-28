@@ -25,7 +25,6 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/members")
 @Validated
-@CrossOrigin(origins = "*")
 public class MemberController {
     private final static String MEMBER_DEFAULT_URL = "/api/members";
     private final MemberMapper memberMapper;

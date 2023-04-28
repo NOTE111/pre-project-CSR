@@ -24,7 +24,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/questions")
 @Validated
-@CrossOrigin(origins = "*")
 public class QuestionController {
     private final static String QUESTION_DEFAULT_URL = "/api/questions";
     private final QuestionService questionService;
